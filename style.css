@@ -1,0 +1,78 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background: #f9eeff;
+  /* width: 100vw; */
+}
+body p {
+  font-family: "Work Sans", sans-serif;
+  font-size: 16px;
+}
+
+.blk1 {
+  width: 100vw;
+  height: auto;
+  /* object-fit: cover; */
+  overflow: hidden;
+  position: relative;
+}
+.blk1 img {
+  width: 100%;
+  object-fit: cover;
+  display: block;
+}
+
+.sec1,
+.sec2,
+.sec3,
+.sec4 {
+  border-bottom: 0.5px solid #cfcfcf;
+}
+
+#q1,
+#q2,
+#q3,
+#q4 {
+  color: #171717;
+  font-weight: 600;
+}
+
+#ans4,
+#ans3,
+#ans2,
+#ans1 {
+  min-height: 70px;
+  background: #fefefe;
+  display: block;
+  color: #505050;
+  font-weight: 400;
+}
+/*
+.content {
+  position: absolute;
+  background: blue;
+  transform: translateX(-50%);
+  top: 0; /* Moves content to the top */
+/* left: 50%;  */
+/* Centers it horizontally */
+/* Adjusts centering */
+/* color: white;  */
+/* Makes text visible */
+/* text-align: center; */
+
+/* width: 100%; */
+
+/* padding: 20px;  */
+/* Adds some spacing */
+/* z-index: 2; */
+
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
