@@ -3,11 +3,7 @@
   padding: 0;
   box-sizing: border-box;
 }
-body {
-  background: #f9eeff;
-  /* padding-bottom: 20%; */
-  /* min-height: 100vh; */
-}
+
 body p {
   font-family: "Work Sans", sans-serif;
   font-size: 16px;
@@ -16,7 +12,7 @@ body p {
 .hope {
   /* padding-bottom: 20%; */
   /* margin-bottom: 50%; */
-  background: rgb(255, 0, 43);
+  background: #f9eeff;
   height: 100vh;
 }
 
@@ -46,6 +42,20 @@ body p {
   /* margin-bottom: 20%; */
 }
 
+.headingText {
+  display: flex;
+  align-items: center;
+  margin-bottom: 2rem;
+  color: hsl(292, 42%, 14%);
+  /* justify-content: space-between; */
+}
+
+.headingText p {
+  margin-left: 20px;
+  font-weight: 700;
+  font-size: 40px;
+}
+
 .sec1,
 .sec2,
 .sec3,
@@ -62,38 +72,32 @@ body p {
   justify-content: space-between;
   margin-bottom: 2rem;
   margin-top: 2rem;
-  color: #171717;
+  color: hsl(292, 42%, 14%);
   font-weight: 600;
 }
-
-.headingText {
-  display: flex;
-  align-items: center;
-  margin-bottom: 2rem;
-  /* justify-content: space-between; */
+#q1:hover,
+#q2:hover,
+#q3:hover,
+#q4:hover {
+  color: #ad28eb;
+  cursor: pointer; /* Optional: Changes cursor to indicate interactivity */
 }
 
-.headingText p {
-  margin-left: 20px;
-  font-weight: 700;
-  font-size: 40px;
-}
 #ans4,
 #ans3,
 #ans2,
 #ans1 {
   margin-bottom: 2rem;
-  min-height: 70px;
+  /* min-height: 70px; */
   background: #fefefe;
   display: block;
   color: #505050;
   font-weight: 400;
+  line-height: 1.8rem;
 }
 
-.attribution {
-  font-size: 11px;
-  text-align: center;
-}
-.attribution a {
-  color: hsl(228, 45%, 44%);
+#ans4,
+#ans3,
+#ans2 {
+  display: none;
 }
