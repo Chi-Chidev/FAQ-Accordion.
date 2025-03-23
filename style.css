@@ -5,15 +5,23 @@
 }
 body {
   background: #f9eeff;
-  /* width: 100vw; */
+  /* padding-bottom: 20%; */
+  /* min-height: 100vh; */
 }
 body p {
   font-family: "Work Sans", sans-serif;
   font-size: 16px;
 }
 
+.hope {
+  /* padding-bottom: 20%; */
+  /* margin-bottom: 50%; */
+  background: rgb(255, 0, 43);
+  height: 100vh;
+}
+
 .blk1 {
-  width: 100vw;
+  /* width: 100vw; */
   height: auto;
   /* object-fit: cover; */
   overflow: hidden;
@@ -23,6 +31,19 @@ body p {
   width: 100%;
   object-fit: cover;
   display: block;
+}
+.content {
+  position: absolute;
+  width: 50%;
+  /* height: auto; */
+  padding: 3%;
+  background: white;
+  top: 18%;
+  /* bottom: 10%; */
+  margin-left: 25%;
+  border-radius: 10px;
+  box-shadow: 0px 10px 30px rgba(102, 36, 138, 0.242);
+  /* margin-bottom: 20%; */
 }
 
 .sec1,
@@ -36,38 +57,38 @@ body p {
 #q2,
 #q3,
 #q4 {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 2rem;
+  margin-top: 2rem;
   color: #171717;
   font-weight: 600;
 }
 
+.headingText {
+  display: flex;
+  align-items: center;
+  margin-bottom: 2rem;
+  /* justify-content: space-between; */
+}
+
+.headingText p {
+  margin-left: 20px;
+  font-weight: 700;
+  font-size: 40px;
+}
 #ans4,
 #ans3,
 #ans2,
 #ans1 {
+  margin-bottom: 2rem;
   min-height: 70px;
   background: #fefefe;
   display: block;
   color: #505050;
   font-weight: 400;
 }
-/*
-.content {
-  position: absolute;
-  background: blue;
-  transform: translateX(-50%);
-  top: 0; /* Moves content to the top */
-/* left: 50%;  */
-/* Centers it horizontally */
-/* Adjusts centering */
-/* color: white;  */
-/* Makes text visible */
-/* text-align: center; */
-
-/* width: 100%; */
-
-/* padding: 20px;  */
-/* Adds some spacing */
-/* z-index: 2; */
 
 .attribution {
   font-size: 11px;
